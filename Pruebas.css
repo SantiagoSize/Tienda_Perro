@@ -1,0 +1,62 @@
+
+
+    /*Letra y fondo*/
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #366879;
+    margin: 0;
+    padding: 0;
+  }
+
+  /*Colores2*/
+  header {
+    background-color: blue;
+    color:beige;
+    text-align: center;
+    padding: 20px;
+  }
+
+  /*Alineacion Titulo*/
+  header h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+
+  /*Navegacion*/
+  nav {
+    background-color: rgb(234, 230, 238);
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  /*Arreglo de area de navegacion*/
+  nav a {
+    color: rgb(13, 14, 14);
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.1em;
+  }
+
+  /*Arreglo de descripcion y eslogan*/
+  .card {
+    background-color: blue;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(226, 223, 223, 0.952);
+    margin: 20px auto;
+    max-width: 500px;
+    padding: 20px;
+    
+  }
+
+  /*Letra de descripcion*/
+  .card h2 {
+    font-size: 2em;
+    color: rgb(248, 242, 242);
+  }
+
+  /*Letra eslogan*/
+  .card p {
+    font-size: 1.2em;
+    color: rgb(247, 240, 239);
+  }
