@@ -40,8 +40,13 @@
     color: rgb(13, 14, 14);
     margin: 0 15px;
     text-decoration: none;
-    font-size: 1.1em;
+    font-size: 1.3em; 
+    padding: 8px 12px;
+    border: 2px solid #333; 
+    border-radius: 6px;
+    background-color: #dcdcdc; 
   }
+  
 
   /*Arreglo de descripcion y eslogan*/
   .card {
