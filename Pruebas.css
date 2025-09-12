@@ -70,6 +70,9 @@
 
   /*Letra eslogan*/
   .card p {
-    font-size: 1.2em;
+    font-size: 1.5em;
     color: rgb(247, 240, 239);
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #336699;
   }
