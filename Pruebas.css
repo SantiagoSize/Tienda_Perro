@@ -20,7 +20,12 @@
   /*Alineacion Titulo*/
   header h1 {
     margin: 0;
-    font-size: 2.5em;
+    font-size: 3em;
+    border: 4px solid beige; 
+    padding: 15px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #27496d; 
   }
 
   /*Navegacion*/
