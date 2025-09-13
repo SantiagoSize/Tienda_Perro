@@ -21,14 +21,24 @@
   <main>
     <div class="card">
       
-      <form>
-          <p>Ingresa tu correo</p>       
-          <input type = "text"id="correo" placeholder="Correo">
-          <p>Ingresa tu contraseña</p>
-          <input type = "password"id="contraseña" placeholder="Contraseña">
+      <h2>Iniciar Sesión</h2>
+      <form id="loginForm">
+          
+          <label for="correo">Correo:</label>
+          <input type="text" id="correo" placeholder="Ingresa tu correo" required>
+          <span id="correoError" class="error"></span>
+          <br><br>
+  
+          
+          <label for="contraseña">Contraseña:</label>
+          <input type="password" id="contraseña" placeholder="Ingresa tu contraseña" required>
+          <span id="contraseñaError" class="error"></span>
+          <br><br>
+  
+          <button type="submit">Ingresar</button>
       </form>
-      <button type = "button"submit>Ingresar</button>
-    </div>
+
+      <script src="js/Restricciones.js"></script>
     </main>
   </body>
 </html>
