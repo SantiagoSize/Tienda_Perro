@@ -76,3 +76,18 @@
     border-radius: 8px;
     background-color: #336699;
   }
+
+  label {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  input[type="text"],
+  input[type="correo"]
+  input[type="contraseña"] {
+    width: 150px;
+    height: 20px;
+    font-size: 18px;
+    padding: 5px;
+    box-sizing: border-box;
+  }
