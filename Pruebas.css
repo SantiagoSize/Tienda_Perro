@@ -77,11 +77,13 @@
     background-color: #336699;
   }
 
+  /*Tamaño de apartado info a inputs*/
   label {
     font-size: 25px;
     font-weight: bold;
   }
 
+  /*Tamaño de inputs de ingreso de datos del usuario*/
   input[type="text"],
   input[type="correo"]
   input[type="contraseña"] {
