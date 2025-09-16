@@ -4,7 +4,7 @@ document.getElementById("correo").addEventListener("input", function () {
     const errorMsg = document.getElementById("correoError");
 
     if (!correo.includes("@")) {
-        errorMsg.textContent = "El correo debe contener '@'.";
+        errorMsg.textContent = "El correo debe contener '@', '.com', '.cl' o ingresar un correo valido.";
         errorMsg.style.color = "red";
     } else {
         errorMsg.textContent = "";
@@ -30,7 +30,7 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
     const clave = document.getElementById("contraseña").value;
 
     if (!correo.includes("@") || clave.length < 8) {
-        e.preventDefault(); // Evita el envío
+        e.preventDefault(); 
         alert("Por favor, corrige los errores antes de continuar.");
     }
 });
