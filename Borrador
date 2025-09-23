@@ -1,1 +1,24 @@
 #Flecha Hacia Arriba : ^
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>DogsShop - Inicio</title>
+
+</head>
+<body>
+    <div class = "navbar">
+        <button onclick="menu.hidden^=1">=
+        </button>
+        <ul id="menu" hidden>
+          <li>Inicio</li>
+          <li>Producto</li>
+          <li>Carrito</li>
+          <li>Localizacion</li>
+          <li>Registro_User</li>
+        </ul>
+    </div>
+
+</body>
+</html>
