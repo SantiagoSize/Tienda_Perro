@@ -19,11 +19,13 @@ body {
 /* Encabezado minimalista */
 header {
   background-color: #2d3748;
-  color: #ffffff;
-  text-align: center;
-  padding: 2rem 1rem;
+  padding: 1rem 0;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
+
 
 header h1 {
   margin: 0;
@@ -62,31 +64,35 @@ header h1 {
   background: #63b3ed;
 }
 
-#menu {
+/* Menú superior */
+.menu-superior ul {
   list-style: none;
-  margin-top: 1rem;
+  display: flex;
+  justify-content: center;   /* centra los enlaces */
+  gap: 3rem;                 /* separación entre botones */
+  margin: 0;
   padding: 0;
 }
 
-#menu li {
-  margin: 0.5rem 0;
+.menu-superior li {
+  display: inline;
 }
 
-#menu a {
-  color: #e2e8f0;
+.menu-superior a {
   text-decoration: none;
+  color: #ffffff;
   font-size: 1.1rem;
-  padding: 0.75rem 1.5rem;
-  display: block;
-  transition: all 0.2s ease;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease;
   border-radius: 4px;
 }
 
-#menu a:hover {
+.menu-superior a:hover {
   background-color: #63b3ed;
-  color: white;
-  transform: translateX(5px);
+  color: #fff;
 }
+
 
 /* Tarjetas minimalistas */
 .card {
