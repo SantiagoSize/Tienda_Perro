@@ -19,13 +19,12 @@ body {
 /* Encabezado minimalista */
 header {
   background-color: #2d3748;
-  padding: 1rem 0;
+  padding: 1rem 2rem;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   position: sticky;
   top: 0;
   z-index: 100;
 }
-
 
 header h1 {
   margin: 0;
@@ -64,14 +63,15 @@ header h1 {
   background: #63b3ed;
 }
 
-/* Menú superior */
+
 .menu-superior ul {
   list-style: none;
   display: flex;
-  justify-content: center;   /* centra los enlaces */
-  gap: 3rem;                 /* separación entre botones */
+  justify-content: flex-start; /* alineado a la izquierda */
+  gap: 2rem;                    /* separación entre botones */
   margin: 0;
   padding: 0;
+  align-items: center;
 }
 
 .menu-superior li {
@@ -92,7 +92,6 @@ header h1 {
   background-color: #63b3ed;
   color: #fff;
 }
-
 
 /* Tarjetas minimalistas */
 .card {
