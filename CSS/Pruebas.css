@@ -70,7 +70,7 @@ header h1 {
 .menu-superior ul {
   list-style: none;
   display: flex;
-  gap: 2rem; /* separación entre enlaces */
+  gap: 2rem;
   margin: 0;
   padding: 0;
   align-items: center;
@@ -282,6 +282,53 @@ button[type="submit"]:hover {
 
 .inicio-fotos img:hover {
   transform: scale(1.05);
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e2e8f0; /* color de fondo suave */
+  padding: 5rem 1rem;
+  border-radius: 12px;
+  margin: 2rem auto;
+  max-width: 1200px;
+  gap: 2rem;
+  flex-wrap: wrap; /* para que en móvil se acomode en columna */
+}
+
+.hero-text h2 {
+  font-size: 2.5rem;
+  color: #2d3748;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  color: #4a5568;
+  margin-bottom: 1.5rem;
+}
+
+.btn-hero {
+  display: inline-block;
+  background-color: #4299e1;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.btn-hero:hover {
+  background-color: #3182ce;
+}
+
+.hero-image img {
+  width: 400px;
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
 }
 
 
