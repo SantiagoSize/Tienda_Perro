@@ -288,13 +288,13 @@ button[type="submit"]:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #e2e8f0; /* color de fondo suave */
+  background-color: #e2e8f0; 
   padding: 5rem 1rem;
   border-radius: 12px;
   margin: 2rem auto;
   max-width: 1200px;
   gap: 2rem;
-  flex-wrap: wrap; /* para que en móvil se acomode en columna */
+  flex-wrap: wrap;
 }
 
 .hero-text h2 {
@@ -330,6 +330,37 @@ button[type="submit"]:hover {
   border-radius: 12px;
   box-shadow: 0 6px 16px rgba(0,0,0,0.15);
 }
+
+.acerca-de {
+  display: flex;                    /* activa flexbox */
+  align-items: center;              /* centra verticalmente */
+  justify-content: space-between;   /* texto a la izquierda, imagen a la derecha */
+  gap: 10rem;                        /* separación entre columnas */
+  padding: 3rem 2rem;
+  max-width: 1200px;
+  margin: 2rem auto;
+  flex-wrap: wrap;                  /* en móvil se acomodan en columna */
+  background-color: #a67c52;        /* fondo café */
+  border-radius: 12px;
+  color: #ffffff;                   /* texto blanco para contraste */
+}
+
+.acerca-texto {
+  flex: 1;                          /* ocupa el espacio disponible */
+}
+
+.acerca-texto h2,
+.acerca-texto p {
+  color: #ffffff;
+}
+
+.acerca-imagen img {
+  width: 450px;                     
+  max-width: 100%;                  
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
 
 
 /* Responsive */
