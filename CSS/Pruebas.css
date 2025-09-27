@@ -288,7 +288,7 @@ button[type="submit"]:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #e2e8f0; 
+  background-color: #f1dbb1f8; 
   padding: 5rem 1rem;
   border-radius: 12px;
   margin: 2rem auto;
@@ -311,7 +311,7 @@ button[type="submit"]:hover {
 
 .btn-hero {
   display: inline-block;
-  background-color: #4299e1;
+  background-color: #3182ce;
   color: white;
   padding: 0.75rem 1.5rem;
   border-radius: 6px;
@@ -340,7 +340,7 @@ button[type="submit"]:hover {
   max-width: 1200px;
   margin: 2rem auto;
   flex-wrap: wrap;                  /* en móvil se acomodan en columna */
-  background-color: #a67c52;        /* fondo café */
+  background-color: #4a5568;        /* fondo café */
   border-radius: 12px;
   color: #ffffff;                   /* texto blanco para contraste */
 }
