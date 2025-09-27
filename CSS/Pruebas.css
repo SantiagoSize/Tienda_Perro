@@ -361,6 +361,15 @@ button[type="submit"]:hover {
   box-shadow: 0 6px 16px rgba(0,0,0,0.15);
 }
 
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background-color: hsla(40, 82%, 13%, 0.685); /* azul claro / cambia el código si quieres otro tono */
+  color: #2d3748;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
 
 
 /* Responsive */
