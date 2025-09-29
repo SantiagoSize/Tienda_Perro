@@ -1,4 +1,31 @@
 
+
+/* Fija el logo en la esquina superior izquierda */
+.logo-container {
+  position: fixed;
+  top: 10px;      /* Distancia desde el borde superior */
+  left: 10px;     /* Distancia desde el borde izquierdo */
+  z-index: 1000;  /* Asegura que el logo se quede por encima de otros elementos */
+  background-color: transparent; /* Asegúrate de que el fondo del contenedor sea transparente */
+}
+
+.logo {
+  width: 100px;    /* Ajusta el tamaño del logo según lo necesites */
+  height: auto;   /* Mantiene la relación de aspecto */
+}
+
+/* Espacio adicional para evitar que el logo se superponga al header */
+body {
+  padding-top: 70px; /* Ajusta este valor si es necesario */
+}
+
+/* Asegúrate de que el header no tape el logo */
+header {
+  position: relative; /* Cambio de sticky a relative */
+  z-index: 500;  /* Menor que el logo para que el logo se vea encima */
+}
+
+
 /* Reset y configuración base */
 * {
   box-sizing: border-box;
@@ -346,7 +373,7 @@ button[type="submit"]:hover {
 }
 
 .acerca-texto {
-  flex: 1;                          /* ocupa el espacio disponible */
+  flex: 1;                         
 }
 
 .acerca-texto h2,
@@ -363,7 +390,7 @@ button[type="submit"]:hover {
 
 body {
   font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-  background-color: hsla(40, 82%, 13%, 0.685); /* azul claro / cambia el código si quieres otro tono */
+  background-color: hsla(40, 82%, 13%, 0.685); 
   color: #2d3748;
   line-height: 1.6;
   margin: 0;
